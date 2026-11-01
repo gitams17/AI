@@ -17,4 +17,4 @@ response = client.chat.completions.create(
 
 
 print("LLM Response: ")
-print(response)
+print(response.choices[0].message.content)
